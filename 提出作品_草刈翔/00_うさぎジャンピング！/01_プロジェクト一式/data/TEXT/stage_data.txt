@@ -1,0 +1,379 @@
+#==============================================================================
+#
+# 『ステージデータ』スクリプトファイル [stage_data.txt]
+# Author : 草刈 翔
+#
+#==============================================================================
+
+#------------------------------------------------------------------------------
+# テクスチャの種類 ([14]～[21]の範囲で使うこと)
+#------------------------------------------------------------------------------
+data/TEXTURE/flower00.png		# [14]花：赤
+data/TEXTURE/flower01.png		# [15]花：オレンジ
+data/TEXTURE/flower02.png		# [16]花：黄色
+data/TEXTURE/flower03.png		# [17]花：青
+data/TEXTURE/flower04.png		# [18]花：ピンク
+data/TEXTURE/flower05.png		# [19]花：白
+data/TEXTURE/tree.png			# [20]木
+data/TEXTURE/bush00.png			# [21]茂み
+
+#------------------------------------------------------------------------------
+# モデルの種類 ([0]～[24]は使用用途外のため、使わないこと)
+#------------------------------------------------------------------------------
+data/MODEL/object/carrot.x		# [25]ニンジン
+data/MODEL/object/rock.x		# [26]岩
+
+#------------------------------------------------------------------------------
+# 配置情報
+#------------------------------------------------------------------------------
+#------------------------------------------------------
+# [0] パターン０
+#------------------------------------------------------
+OBJECTSET
+	NUM_PATTERN = 0		# パターン番号
+	NUM_MODEL = 0		# モデルの数
+	NUM_BILLBOARD = 12	# ビルボードの数
+
+	#--------------------------------------------------
+	# ビルボードの配置情報
+	#--------------------------------------------------
+	BILLBOARDSET
+		TEXTYPE = 20				# 種類
+		POS = -80.00 95.00 340.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 180 200				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 20				# 種類
+		POS = 450.00 95.00 270.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 180 200				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 19				# 種類
+		POS = 560.00 15.00 240.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 20				# 種類
+		POS = -320.00 95.00 230.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 180 200				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 21				# 種類
+		POS = -220.00 25.00 210.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 130 70				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 20				# 種類
+		POS = 200.00 95.00 210.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 180 200				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 21				# 種類
+		POS = 160.00 25.00 170.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 90 70				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 14				# 種類
+		POS = 10.00 15.00 165.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 14				# 種類
+		POS = -100.00 15.00 150.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 14				# 種類
+		POS = 470.00 15.00 145.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 21				# 種類
+		POS = 260.00 25.00 140.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 110 70				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 15				# 種類
+		POS = -50.00 15.00 140.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+END_OBJECTSET
+
+#------------------------------------------------------
+# [1] パターン１
+#------------------------------------------------------
+OBJECTSET
+	NUM_PATTERN = 1		# パターン番号
+	NUM_MODEL = 2		# モデルの数
+	NUM_BILLBOARD = 9	# ビルボードの数
+
+	#--------------------------------------------------
+	# モデルの配置情報
+	#--------------------------------------------------
+	MODELSET
+		TYPE = 25					# 種類
+		POS = 20.00 0.00 210.00		# 位置(Ｘ/Ｙ/Ｚ)
+		ROT = 0.00 0.00 0.00		# 向き(Ｘ/Ｙ/Ｚ)
+	END_MODELSET
+
+	MODELSET
+		TYPE = 26					# 種類
+		POS = 490.00 0.00 250.00	# 位置(Ｘ/Ｙ/Ｚ)
+		ROT = 0.00 0.00 0.00		# 向き(Ｘ/Ｙ/Ｚ)
+	END_MODELSET
+
+	#--------------------------------------------------
+	# ビルボードの配置情報
+	#--------------------------------------------------
+	BILLBOARDSET
+		TEXTYPE = 19				# 種類
+		POS = 350.00 15.00 340.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 18				# 種類
+		POS = 310.00 15.00 310.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 16				# 種類
+		POS = -130.00 15.00 250.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 15				# 種類
+		POS = -80.00 15.00 210.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 21				# 種類
+		POS = 340.00 25.00 190.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 90 70				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 20				# 種類
+		POS = 260.00 95.00 170.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 180 200				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 21				# 種類
+		POS = -330.00 27.50 165.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 110 75				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 20				# 種類
+		POS = 620.00 95.00 150.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 180 200				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 21				# 種類
+		POS = -220.00 20.00 135.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 120 60				# サイズ(横/縦)
+	END_BILLBOARDSET
+END_OBJECTSET
+
+
+#------------------------------------------------------
+# [2] パターン２
+#------------------------------------------------------
+OBJECTSET
+	NUM_PATTERN = 2		# パターン番号
+	NUM_MODEL = 3		# モデルの数
+	NUM_BILLBOARD = 9	# ビルボードの数
+
+	#--------------------------------------------------
+	# モデルの配置情報
+	#--------------------------------------------------
+	MODELSET
+		TYPE = 25					# 種類
+		POS = 130.00 0.00 160.00	# 位置(Ｘ/Ｙ/Ｚ)
+		ROT = 0.00 0.00 0.00		# 向き(Ｘ/Ｙ/Ｚ)
+	END_MODELSET
+
+	MODELSET
+		TYPE = 25					# 種類
+		POS = 590.00 0.00 190.00	# 位置(Ｘ/Ｙ/Ｚ)
+		ROT = 0.00 0.00 0.00		# 向き(Ｘ/Ｙ/Ｚ)
+	END_MODELSET
+
+	MODELSET
+		TYPE = 25					# 種類
+		POS = -240.00 0.00 330.00	# 位置(Ｘ/Ｙ/Ｚ)
+		ROT = 0.00 0.00 0.00		# 向き(Ｘ/Ｙ/Ｚ)
+	END_MODELSET
+	
+	#--------------------------------------------------
+	# ビルボードの配置情報
+	#--------------------------------------------------
+	BILLBOARDSET
+		TEXTYPE = 20				# 種類
+		POS = 220.00 95.00 270.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 180 200				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 18				# 種類
+		POS = 330.00 15.00 360.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 16				# 種類
+		POS = 380.00 15.00 340.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 21				# 種類
+		POS = 25.00 25.00 340.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 110 70				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 21				# 種類
+		POS = 400.00 32.50 230.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 110 85				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 21				# 種類
+		POS = 460.00 27.50 200.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 110 75				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 19				# 種類
+		POS = -110.00 15.00 180.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 20				# 種類
+		POS = -260.00 95.00 155.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 180 200				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 17				# 種類
+		POS = -20.00 20.00 140.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+END_OBJECTSET
+
+#------------------------------------------------------
+# [3] パターン３
+#------------------------------------------------------
+OBJECTSET
+	NUM_PATTERN = 3		# パターン番号
+	NUM_MODEL = 2		# モデルの数
+	NUM_BILLBOARD = 12	# ビルボードの数
+
+	#--------------------------------------------------
+	# モデルの配置情報
+	#--------------------------------------------------
+	MODELSET
+		TYPE = 26					# 種類
+		POS = -240.00 0.00 190.00	# 位置(Ｘ/Ｙ/Ｚ)
+		ROT = 0.00 0.00 0.00		# 向き(Ｘ/Ｙ/Ｚ)
+	END_MODELSET
+
+	MODELSET
+		TYPE = 25					# 種類
+		POS = 370.00 0.00 320.00	# 位置(Ｘ/Ｙ/Ｚ)
+		ROT = 0.00 0.00 0.00		# 向き(Ｘ/Ｙ/Ｚ)
+	END_MODELSET
+	
+	#--------------------------------------------------
+	# ビルボードの配置情報
+	#--------------------------------------------------
+	BILLBOARDSET
+		TEXTYPE = 20				# 種類
+		POS = -120.00 95.00 300.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 180 200				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 16				# 種類
+		POS = 600.00 15.00 260.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 18				# 種類
+		POS = 480.00 15.00 240.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 20				# 種類
+		POS = 150.00 95.00 200.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 180 200				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 14				# 種類
+		POS = 10.00 15.00 170.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 20				# 種類
+		POS = 660.00 95.00 170.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 180 200				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 18				# 種類
+		POS = 50.00 15.00 160.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 16				# 種類
+		POS = 380.00 15.00 160.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+
+	BILLBOARDSET
+		TEXTYPE = 19				# 種類
+		POS = 520.00 15.00 155.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+	
+	BILLBOARDSET
+		TEXTYPE = 21				# 種類
+		POS = 225.00 25.00 150.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 110 70				# サイズ(横/縦)
+	END_BILLBOARDSET
+	
+	BILLBOARDSET
+		TEXTYPE = 21				# 種類
+		POS = 615.00 20.00 135.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 130 60				# サイズ(横/縦)
+	END_BILLBOARDSET
+	
+	BILLBOARDSET
+		TEXTYPE = 18				# 種類
+		POS = -70.00 15.00 130.00	# 位置(Ｘ/Ｙ/Ｚ)
+		SIZE = 30 30				# サイズ(横/縦)
+	END_BILLBOARDSET
+END_OBJECTSET

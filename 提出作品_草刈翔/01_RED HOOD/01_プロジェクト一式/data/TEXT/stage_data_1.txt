@@ -1,0 +1,877 @@
+#==============================================================================
+#
+# ƒXƒe[ƒWî•ñ
+#
+#==============================================================================
+
+#------------------------------------------------------------------------------
+# ‹ó‚Ìî•ñ
+#------------------------------------------------------------------------------
+SKYSET
+	TEXTYPE = 6			# Ží—Þ
+	SIZE = 40000 		# ƒTƒCƒY(•)
+	SPIN = 0.00050 		# ‰ñ“]‚Ì‘¬‚³
+END_SKYSET
+
+#------------------------------------------------------------------------------
+# ’n–Ê‚Ì”
+#------------------------------------------------------------------------------
+NUM_FIELD = 21
+
+#------------------------------------------------------------------------------
+# •Ç‚Ì”
+#------------------------------------------------------------------------------
+NUM_WALL = 66
+
+#------------------------------------------------------------------------------
+# ƒ‚ƒfƒ‹‚Ì”
+#------------------------------------------------------------------------------
+NUM_MODEL = 0
+
+#------------------------------------------------------------------------------
+# “G‚Ì”
+#------------------------------------------------------------------------------
+NUM_ENEMY = 19
+
+#------------------------------------------------------------------------------
+# ’n–Ê‚Ì”z’uî•ñ
+#------------------------------------------------------------------------------
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 0.00 0.00 0.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 4 4					# •ªŠ„”(‰¡/c)
+	SIZE = 1200 1200			# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 0.00 0.00 1200.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 4 1					# •ªŠ„”(‰¡/c)
+	SIZE = 400 1200				# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 0.00 0.00 2600.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 4 4					# •ªŠ„”(‰¡/c)
+	SIZE = 1600 1600			# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = -1500.00 0.00 2600.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 4					# •ªŠ„”(‰¡/c)
+	SIZE = 1400 600				# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = -3000.00 0.00 3100.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 4 4					# •ªŠ„”(‰¡/c)
+	SIZE = 1600 1600			# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = -3100.00 0.00 4800.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1					# •ªŠ„”(‰¡/c)
+	SIZE = 600 1800				# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = -3000.00 0.00 6500.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 4 4					# •ªŠ„”(‰¡/c)
+	SIZE = 1600 1600			# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = -1500.00 0.00 6400.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 4					# •ªŠ„”(‰¡/c)
+	SIZE = 1400 600				# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 0.00 0.00 6300.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 4 4					# •ªŠ„”(‰¡/c)
+	SIZE = 1600 1600			# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 0.00 0.00 7800.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 4 2					# •ªŠ„”(‰¡/c)
+	SIZE = 800 1400				# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 0.00 0.00 10000.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 6 6					# •ªŠ„”(‰¡/c)
+	SIZE = 3000 3000			# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 0.00 5000.00 10000.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 6 6					# •ªŠ„”(‰¡/c)
+	SIZE = 3000 3000			# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 1600.00 0.00 2700.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 4					# •ªŠ„”(‰¡/c)
+	SIZE = 1600 600				# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 2700.00 0.00 2300.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1					# •ªŠ„”(‰¡/c)
+	SIZE = 600 1400				# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 3400.00 0.00 1300.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 4					# •ªŠ„”(‰¡/c)
+	SIZE = 2000 600				# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 5100.00 0.00 1700.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 3					# •ªŠ„”(‰¡/c)
+	SIZE = 1400 1400			# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 5500.00 0.00 3200.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1					# •ªŠ„”(‰¡/c)
+	SIZE = 600 1600				# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 5100.00 0.00 4700.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 3					# •ªŠ„”(‰¡/c)
+	SIZE = 1400 1400			# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 3700.00 0.00 4600.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 3					# •ªŠ„”(‰¡/c)
+	SIZE = 1400 600				# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 2700.00 0.00 5300.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1					# •ªŠ„”(‰¡/c)
+	SIZE = 600 2000				# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1					# Ží—Þ
+	POS = 1600.00 0.00 6100.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 4					# •ªŠ„”(‰¡/c)
+	SIZE = 1600 400				# ƒTƒCƒY(‰¡/c)
+END_FIELDSET
+
+#------------------------------------------------------------------------------
+# •Ç‚Ì”z’uî•ñ
+#------------------------------------------------------------------------------
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -400.00 -20.00 600.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 400.00 -20.00 600.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 0.00 -20.00 -600.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1200 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 600.00 -20.00 0.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1200 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -600.00 -20.00 0.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1200 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 200.00 -20.00 1200.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1200 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -200.00 -20.00 1200.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1200 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 0.00 -20.00 3400.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 500.00 -20.00 1800.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -500.00 -20.00 1800.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -800.00 -20.00 3150.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 500 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -800.00 -20.00 2050.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 500 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 800.00 -20.00 3200.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 800.00 -20.00 2100.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -1500.00 -20.00 2900.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -2310.00 -20.00 2300.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 6 1						# •ªŠ„”(‰¡/c)
+	SIZE = 3020 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -3000.00 -20.00 7300.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -3800.00 -20.00 3100.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -2200.00 -20.00 3400.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1000 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -2500.00 -20.00 3900.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -3600.00 -20.00 3900.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -3400.00 -20.00 4800.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1800 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -2800.00 -20.00 4800.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1800 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -3600.00 -20.00 5700.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -2500.00 -20.00 5700.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -3800.00 -20.00 6500.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -2200.00 -20.00 5900.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -2200.00 -20.00 7000.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -1500.00 -20.00 6700.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -1500.00 -20.00 6100.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 0.00 -20.00 5500.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -800.00 -20.00 6300.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 800.00 -20.00 6300.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -600.00 -20.00 7100.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 600.00 -20.00 7100.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 1900.00 -20.00 3000.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 2200 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 1600.00 -20.00 2400.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 3000.00 -20.00 2300.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 3700.00 -20.00 1600.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 2400.00 -20.00 1700.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 4400.00 -20.00 2000.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 800 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 4100.00 -20.00 1000.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 4 1						# •ªŠ„”(‰¡/c)
+	SIZE = 3410 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 5200.00 -20.00 3200.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 4800.00 -20.00 2400.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 800 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 5800.00 -20.00 3200.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 5 1						# •ªŠ„”(‰¡/c)
+	SIZE = 4400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 4800.00 -20.00 4000.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 800 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 5100.00 -20.00 5400.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 4400.00 -20.00 4150.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 300 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 4400.00 -20.00 5150.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 1 1						# •ªŠ„”(‰¡/c)
+	SIZE = 500 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 3700.00 -20.00 4900.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 3400.00 -20.00 4300.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 1						# •ªŠ„”(‰¡/c)
+	SIZE = 2000 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 3000.00 -20.00 5600.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 2400.00 -20.00 5100.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 1900.00 -20.00 6300.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 4 1						# •ªŠ„”(‰¡/c)
+	SIZE = 2200 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 1600.00 -20.00 5900.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1600 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 400.00 -20.00 7800.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -400.00 -20.00 7800.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 3 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1400 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -1500.00 -20.00 10000.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 5 1						# •ªŠ„”(‰¡/c)
+	SIZE = 3000 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 1500.00 -20.00 10000.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 5 1						# •ªŠ„”(‰¡/c)
+	SIZE = 3000 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 0.00 -20.00 11500.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 5 1						# •ªŠ„”(‰¡/c)
+	SIZE = 3000 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -950.00 -20.00 8500.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1100 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 950.00 -20.00 8500.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 2 1						# •ªŠ„”(‰¡/c)
+	SIZE = 1100 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = -1500.00 4980.00 10000.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 5 1						# •ªŠ„”(‰¡/c)
+	SIZE = 3000 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 1500.00 4980.00 10000.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 1.57 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 5 1						# •ªŠ„”(‰¡/c)
+	SIZE = 3000 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 0.00 4980.00 11500.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 -0.00 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 5 1						# •ªŠ„”(‰¡/c)
+	SIZE = 3000 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+WALLSET
+	TEXTYPE = 2						# Ží—Þ
+	POS = 0.00 4980.00 8500.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 3.14 0.00			# Œü‚«(‚w/‚x/‚y)
+	BLOCK = 5 1						# •ªŠ„”(‰¡/c)
+	SIZE = 3000 550					# ƒTƒCƒY(‰¡/c)
+END_WALLSET
+
+#------------------------------------------------------------------------------
+# ƒ‚ƒfƒ‹‚Ì”z’uî•ñ
+#------------------------------------------------------------------------------
+#------------------------------------------------------------------------------
+# “G‚Ì”z’uî•ñ
+#------------------------------------------------------------------------------
+ENEMYSET
+	TYPE = 0					# Ží—Þ
+	POS = 0.00 0.00 3000.00		# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 8.00					# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 0					# Ží—Þ
+	POS = -380.00 0.00 2670.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 8.00					# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 0					# Ží—Þ
+	POS = 550.00 0.00 2960.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 8.00					# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 0					# Ží—Þ
+	POS = -2560.00 0.00 6690.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 16.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 0					# Ží—Þ
+	POS = -3570.00 0.00 6060.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 16.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 1					# Ží—Þ
+	POS = -3420.00 0.00 6800.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 13.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 1					# Ží—Þ
+	POS = -2920.00 0.00 5930.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 13.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 0					# Ží—Þ
+	POS = 2400.00 0.00 2690.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 14.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 1					# Ží—Þ
+	POS = 2650.00 0.00 2410.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 12.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 1					# Ží—Þ
+	POS = 2950.00 0.00 1220.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 13.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 0					# Ží—Þ
+	POS = 3640.00 0.00 1370.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 15.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 0					# Ží—Þ
+	POS = 3840.00 0.00 1270.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 15.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 0					# Ží—Þ
+	POS = 4620.00 0.00 2100.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 16.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 0					# Ží—Þ
+	POS = 5410.00 0.00 1250.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 16.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 0					# Ží—Þ
+	POS = 5350.00 0.00 2000.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 16.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 1					# Ží—Þ
+	POS = 5500.00 0.00 3000.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 16.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 0					# Ží—Þ
+	POS = 2610.00 0.00 4550.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 18.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 1					# Ží—Þ
+	POS = 2830.00 0.00 5090.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 18.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+ENEMYSET
+	TYPE = 0					# Ží—Þ
+	POS = 2720.00 0.00 5650.00	# ˆÊ’u(‚w/‚x/‚y)
+	ROT = 0.00 0.00 0.00		# Œü‚«(‚w/‚x/‚y)
+	LIFE = 20.00				# ƒ‰ƒCƒt
+END_ENEMYSET
+
+END_SCRIPT		# ‚±‚Ìs‚Íâ‘ÎÁ‚³‚È‚¢‚±‚ÆI

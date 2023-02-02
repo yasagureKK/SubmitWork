@@ -1,0 +1,52 @@
+#==============================================================================
+#
+# サウンドラベル情報
+#
+#==============================================================================
+
+#------------------------------------------------------------------------------
+# サウンド数
+#------------------------------------------------------------------------------
+NUM_SOUND = 36
+
+#------------------------------------------------------------------------------
+# テクスチャファイル名 / ループ (-1…ループ有 / 0…ループ無)
+#------------------------------------------------------------------------------
+SOUND_NAME = data/SOUND/BGM/title.wav			LOOP = -1	// [0] BGM：タイトル
+SOUND_NAME = data/SOUND/BGM/game.wav			LOOP = -1	// [1] BGM：ゲーム
+SOUND_NAME = data/SOUND/BGM/boss.wav			LOOP = -1	// [2] BGM：ボス
+SOUND_NAME = data/SOUND/SE/jump.wav				LOOP = 0	// [3] SE：ジャンプ
+SOUND_NAME = data/SOUND/SE/dash.wav				LOOP = 0	// [4] SE：ダッシュ
+SOUND_NAME = data/SOUND/SE/footsteps_1.wav		LOOP = 0	// [5] SE：足音1
+SOUND_NAME = data/SOUND/SE/footsteps_2.wav		LOOP = 0	// [6] SE：足音2
+SOUND_NAME = data/SOUND/SE/axe_swing.wav		LOOP = 0	// [7] SE：斧…スイング
+SOUND_NAME = data/SOUND/SE/axe_hit.wav			LOOP = 0	// [8] SE：斧…ヒット
+SOUND_NAME = data/SOUND/SE/bowgun_shot.wav		LOOP = 0	// [9] SE：ボウガン…ショット
+SOUND_NAME = data/SOUND/SE/bowgun_stick.wav		LOOP = 0	// [10]SE：ボウガン…突き刺さり
+SOUND_NAME = data/SOUND/SE/weapon_change.wav	LOOP = 0	// [11]SE：武器切り替え
+SOUND_NAME = data/SOUND/SE/damage.wav			LOOP = 0	// [12]SE：ダメージ
+SOUND_NAME = data/SOUND/SE/levelup.wav			LOOP = 0	// [13]SE：レベルアップ
+SOUND_NAME = data/SOUND/SE/levelup_select.wav	LOOP = 0	// [14]SE：レベルアップ時の決定
+SOUND_NAME = data/SOUND/SE/gameover.wav			LOOP = 0	// [15]SE：ゲームオーバー
+SOUND_NAME = data/SOUND/SE/clear.wav			LOOP = 0	// [16]SE：ゲームクリア
+SOUND_NAME = data/SOUND/SE/enemy_claw1.wav		LOOP = 0	// [17]SE：エネミー…切り裂き1(狼00)
+SOUND_NAME = data/SOUND/SE/enemy_claw2.wav		LOOP = 0	// [18]SE：エネミー…切り裂き2(ボス)
+SOUND_NAME = data/SOUND/SE/enemy_bite.wav		LOOP = 0	// [19]SE：エネミー…噛みつき(狼01)
+SOUND_NAME = data/SOUND/SE/boss_land.wav		LOOP = 0	// [20]SE：エネミー…着地(ボス)
+SOUND_NAME = data/SOUND/SE/boss_charge.wav		LOOP = 0	// [21]SE：エネミー…チャージ(ボス)
+SOUND_NAME = data/SOUND/SE/boss_dash.wav		LOOP = 0	// [22]SE：エネミー…ダッシュ(ボス)
+SOUND_NAME = data/SOUND/SE/footsteps_1.wav		LOOP = 0	// [23]SE：エネミー…足音1
+SOUND_NAME = data/SOUND/SE/footsteps_2.wav		LOOP = 0	// [24]SE：エネミー…足音2
+SOUND_NAME = data/SOUND/SE/enemy_box_in.wav		LOOP = 0	// [25]SE：エネミーボックス…イン
+SOUND_NAME = data/SOUND/SE/enemy_box_clear.wav	LOOP = 0	// [26]SE：エネミーボックス…クリア
+SOUND_NAME = data/SOUND/SE/select.wav			LOOP = 0	// [27]SE：選択
+SOUND_NAME = data/SOUND/SE/decide.wav			LOOP = 0	// [28]SE：決定
+SOUND_NAME = data/SOUND/SE/cancel.wav			LOOP = 0	// [29]SE：キャンセル
+SOUND_NAME = data/SOUND/SE/start.wav			LOOP = 0	// [30]SE：スタート
+SOUND_NAME = data/SOUND/SE/score.wav			LOOP = 0	// [31]SE：スコア表示
+SOUND_NAME = data/SOUND/SE/rank_s.wav			LOOP = 0	// [32]SE：ランクS
+SOUND_NAME = data/SOUND/SE/rank_a.wav			LOOP = 0	// [33]SE：ランクA
+SOUND_NAME = data/SOUND/SE/rank_b.wav			LOOP = 0	// [34]SE：ランクB
+SOUND_NAME = data/SOUND/SE/rank_c.wav			LOOP = 0	// [35]SE：ランクC
+
+END_SCRIPT		# この行は絶対消さないこと！

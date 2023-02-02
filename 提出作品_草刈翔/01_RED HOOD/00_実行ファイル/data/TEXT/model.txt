@@ -1,0 +1,77 @@
+#==============================================================================
+#
+# モデル情報
+#
+#==============================================================================
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 61
+
+#------------------------------------------------------------------------------
+# テクスチャファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/Player/00_waist.x		// [0] プレイヤー：腰
+MODEL_FILENAME = data/MODEL/Player/01_body.x		// [1] プレイヤー：体
+MODEL_FILENAME = data/MODEL/Player/02_head.x		// [2] プレイヤー：頭
+MODEL_FILENAME = data/MODEL/Player/03_armR_1.x		// [3] プレイヤー：右腕1
+MODEL_FILENAME = data/MODEL/Player/04_armR_2.x		// [4] プレイヤー：右腕2
+MODEL_FILENAME = data/MODEL/Player/05_handR.x		// [5] プレイヤー：右手
+MODEL_FILENAME = data/MODEL/Player/06_armL_1.x		// [6] プレイヤー：左腕1
+MODEL_FILENAME = data/MODEL/Player/07_armL_2.x		// [7] プレイヤー：左腕2
+MODEL_FILENAME = data/MODEL/Player/08_handL.x		// [8] プレイヤー：左手
+MODEL_FILENAME = data/MODEL/Player/09_leg_1.x		// [9] プレイヤー：右脚1
+MODEL_FILENAME = data/MODEL/Player/10_leg_2.x		// [10]プレイヤー：右脚2
+MODEL_FILENAME = data/MODEL/Player/11_foot.x		// [11]プレイヤー：右足
+MODEL_FILENAME = data/MODEL/Player/09_leg_1.x		// [12]プレイヤー：左脚1
+MODEL_FILENAME = data/MODEL/Player/10_leg_2.x		// [13]プレイヤー：左脚2
+MODEL_FILENAME = data/MODEL/Player/11_foot.x		// [14]プレイヤー：左足
+MODEL_FILENAME = data/MODEL/Player/12_axe.x			// [15]プレイヤー：斧
+MODEL_FILENAME = data/MODEL/Player/12_bowgun.x		// [16]プレイヤー：ボウガン
+MODEL_FILENAME = data/MODEL/Wolf00/00_body.x		// [17]狼00：体
+MODEL_FILENAME = data/MODEL/Wolf00/01_head.x		// [18]狼00：頭
+MODEL_FILENAME = data/MODEL/Wolf00/02_armR_1.x		// [19]狼00；右腕1
+MODEL_FILENAME = data/MODEL/Wolf00/03_armR_2.x		// [20]狼00；右腕2
+MODEL_FILENAME = data/MODEL/Wolf00/04_handR.x		// [21]狼00：右手
+MODEL_FILENAME = data/MODEL/Wolf00/05_armL_1.x		// [22]狼00；左腕1
+MODEL_FILENAME = data/MODEL/Wolf00/06_armL_2.x		// [23]狼00；左腕2
+MODEL_FILENAME = data/MODEL/Wolf00/07_handL.x		// [24]狼00：左手
+MODEL_FILENAME = data/MODEL/Wolf00/08_leg.x			// [25]狼00：右脚
+MODEL_FILENAME = data/MODEL/Wolf00/09_foot.x		// [26]狼00：右手
+MODEL_FILENAME = data/MODEL/Wolf00/08_leg.x			// [27]狼00：右脚
+MODEL_FILENAME = data/MODEL/Wolf00/09_foot.x		// [28]狼00：右手
+MODEL_FILENAME = data/MODEL/Wolf01/00_body.x		// [29]狼01：体
+MODEL_FILENAME = data/MODEL/Wolf01/01_head.x		// [30]狼01：頭
+MODEL_FILENAME = data/MODEL/Wolf01/02_mouse.x		// [31]狼01；口
+MODEL_FILENAME = data/MODEL/Wolf01/03_tale.x		// [32]狼01；尻尾
+MODEL_FILENAME = data/MODEL/Wolf01/04_leg_1.x		// [33]狼01；右前脚1
+MODEL_FILENAME = data/MODEL/Wolf01/05_leg_2.x		// [34]狼01；右前脚2
+MODEL_FILENAME = data/MODEL/Wolf01/06_foot.x		// [35]狼01；右前足
+MODEL_FILENAME = data/MODEL/Wolf01/04_leg_1.x		// [36]狼01；左前脚1
+MODEL_FILENAME = data/MODEL/Wolf01/05_leg_2.x		// [37]狼01；左前脚2
+MODEL_FILENAME = data/MODEL/Wolf01/06_foot.x		// [38]狼01；左前足
+MODEL_FILENAME = data/MODEL/Wolf01/04_leg_1.x		// [39]狼01；右後脚1
+MODEL_FILENAME = data/MODEL/Wolf01/05_leg_2.x		// [40]狼01；右後脚2
+MODEL_FILENAME = data/MODEL/Wolf01/06_foot.x		// [41]狼01；右後足
+MODEL_FILENAME = data/MODEL/Wolf01/04_leg_1.x		// [42]狼01；左後脚1
+MODEL_FILENAME = data/MODEL/Wolf01/05_leg_2.x		// [43]狼01；左後脚2
+MODEL_FILENAME = data/MODEL/Wolf01/06_foot.x		// [44]狼01；左後足
+MODEL_FILENAME = data/MODEL/WolfBoss/00_waist.x		// [45]狼ボス：腰
+MODEL_FILENAME = data/MODEL/WolfBoss/01_body.x		// [46]狼ボス：体
+MODEL_FILENAME = data/MODEL/WolfBoss/02_head.x		// [47]狼ボス：頭
+MODEL_FILENAME = data/MODEL/WolfBoss/03_armR_1.x	// [48]狼ボス：右腕1
+MODEL_FILENAME = data/MODEL/WolfBoss/04_armR_2.x	// [49]狼ボス：右腕2
+MODEL_FILENAME = data/MODEL/WolfBoss/05_handR.x		// [50]狼ボス：右手
+MODEL_FILENAME = data/MODEL/WolfBoss/06_armL_1.x	// [51]狼ボス：左腕1
+MODEL_FILENAME = data/MODEL/WolfBoss/07_armL_2.x	// [52]狼ボス：左腕2
+MODEL_FILENAME = data/MODEL/WolfBoss/08_handL.x		// [53]狼ボス：左手
+MODEL_FILENAME = data/MODEL/WolfBoss/09_leg_1.x		// [54]狼ボス：左脚1
+MODEL_FILENAME = data/MODEL/WolfBoss/10_leg_2.x		// [55]狼ボス：左脚2
+MODEL_FILENAME = data/MODEL/WolfBoss/11_foot.x		// [56]狼ボス：左足
+MODEL_FILENAME = data/MODEL/WolfBoss/09_leg_1.x		// [57]狼ボス：右脚1
+MODEL_FILENAME = data/MODEL/WolfBoss/10_leg_2.x		// [58]狼ボス：右脚2
+MODEL_FILENAME = data/MODEL/WolfBoss/11_foot.x		// [59]狼ボス：右足
+MODEL_FILENAME = data/MODEL/arrow.x					// [60]矢
+
+END_SCRIPT		# この行は絶対消さないこと！

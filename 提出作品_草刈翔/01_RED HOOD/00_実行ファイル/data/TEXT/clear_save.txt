@@ -1,0 +1,16 @@
+RANK
+	SCORE = 16630
+	RANK = A
+RANK_END
+
+RANK
+	SCORE = 12560
+	RANK = B
+RANK_END
+
+RANK
+	SCORE = 5980
+	RANK = C
+RANK_END
+
+END_SCRIPT		# Ç±ÇÃçsÇÕê‚ëŒè¡Ç≥Ç»Ç¢Ç±Ç∆ÅI

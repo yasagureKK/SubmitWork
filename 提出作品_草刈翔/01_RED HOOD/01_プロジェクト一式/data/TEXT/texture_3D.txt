@@ -1,0 +1,26 @@
+#==============================================================================
+#
+# テクスチャ情報 (地面やエフェクトなど、3Dで使用する画像)
+#
+#==============================================================================
+
+#------------------------------------------------------------------------------
+# テクスチャ数
+#------------------------------------------------------------------------------
+NUM_TEXTURE = 10
+
+#------------------------------------------------------------------------------
+# テクスチャファイル名
+#------------------------------------------------------------------------------
+TEXTURE_FILENAME = data/TEXTURE/3D/effect000.jpg		// [0]エフェクト
+TEXTURE_FILENAME = data/TEXTURE/3D/field00.jpg			// [1]地面
+TEXTURE_FILENAME = data/TEXTURE/3D/wall00.png			// [2]壁 <草>
+TEXTURE_FILENAME = data/TEXTURE/3D/wall_01.png			// [3]壁 <エネミーボックス>
+TEXTURE_FILENAME = data/TEXTURE/3D/wall_02.png			// [4]壁 <エネミーボックス>
+TEXTURE_FILENAME = data/TEXTURE/3D/wall00_top.jpg		// [5]壁 <草>：天井
+TEXTURE_FILENAME = data/TEXTURE/3D/sky00.jpg			// [6]空
+TEXTURE_FILENAME = data/TEXTURE/2D/life_case.png		// [7]ライフ枠
+TEXTURE_FILENAME = data/TEXTURE/2D/life_bar.jpg			// [8]ライフゲージ
+TEXTURE_FILENAME = data/TEXTURE/2D/life_empty.jpg		// [9]ライフ空部分
+
+END_SCRIPT		# この行は絶対消さないこと！

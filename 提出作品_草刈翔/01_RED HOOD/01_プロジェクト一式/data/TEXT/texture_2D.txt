@@ -1,0 +1,61 @@
+#==============================================================================
+#
+# テクスチャ情報 (背景やUIなど、2Dで使用する画像)
+#
+#==============================================================================
+
+#------------------------------------------------------------------------------
+# テクスチャ数
+#------------------------------------------------------------------------------
+NUM_TEXTURE = 26
+
+#------------------------------------------------------------------------------
+# テクスチャファイル名
+#------------------------------------------------------------------------------
+TEXTURE_FILENAME = data/TEXTURE/2D/title_bg.jpg				// [0]タイトル：背景
+TEXTURE_FILENAME = data/TEXTURE/2D/title_logo.png			// [1]タイトル：ロゴ
+TEXTURE_FILENAME = data/TEXTURE/2D/title_press.png			// [2]タイトル：プレス
+TEXTURE_FILENAME = data/TEXTURE/2D/title_start.png			// [3]タイトル：スタート
+TEXTURE_FILENAME = data/TEXTURE/2D/title_guide.png			// [4]タイトル：操作ガイド
+TEXTURE_FILENAME = data/TEXTURE/2D/title_ranking.png		// [5]タイトル：ランキング
+TEXTURE_FILENAME = data/TEXTURE/2D/guide_keyboard.jpg		// [6]操作ガイド：キーボード用
+TEXTURE_FILENAME = data/TEXTURE/2D/guide_gamepad.jpg		// [7]操作ガイド：ゲームパッド用
+TEXTURE_FILENAME = data/TEXTURE/2D/number.png				// [8]ナンバー
+TEXTURE_FILENAME = data/TEXTURE/2D/life_bar.jpg				// [9]ライフゲージ(1)
+TEXTURE_FILENAME = data/TEXTURE/2D/life_bar_2.jpg			// [10]ライフゲージ(2)
+TEXTURE_FILENAME = data/TEXTURE/2D/life_case.png			// [11]ライフ枠(1)
+TEXTURE_FILENAME = data/TEXTURE/2D/life_case_2.png			// [12]ライフ枠(2)
+TEXTURE_FILENAME = data/TEXTURE/2D/life_empty.jpg			// [13]ライフ空部分
+TEXTURE_FILENAME = data/TEXTURE/2D/level.png				// [14]レベル
+TEXTURE_FILENAME = data/TEXTURE/2D/exp_bar.jpg				// [15]経験値ゲージ
+TEXTURE_FILENAME = data/TEXTURE/2D/pause_bg.png				// [16]ポーズ：背景
+TEXTURE_FILENAME = data/TEXTURE/2D/pause_top.png			// [17]ポーズ：トップ文字
+TEXTURE_FILENAME = data/TEXTURE/2D/pause_continue.png		// [18]ポーズ：続ける
+TEXTURE_FILENAME = data/TEXTURE/2D/pause_guide.png			// [19]ポーズ：操作ガイド
+TEXTURE_FILENAME = data/TEXTURE/2D/pause_quit.png			// [20]ポーズ：やめる
+TEXTURE_FILENAME = data/TEXTURE/2D/pause_sentence.png		// [21]ポーズ：各項目の説明文
+TEXTURE_FILENAME = data/TEXTURE/2D/gameover_bg.png			// [22]ゲームオーバー：背景
+TEXTURE_FILENAME = data/TEXTURE/2D/gameover.png				// [23]ゲームオーバー：文字
+TEXTURE_FILENAME = data/TEXTURE/2D/weapon_circle.png		// [24]武器UI：円
+TEXTURE_FILENAME = data/TEXTURE/2D/weapon_axe.png			// [25]武器UI：斧
+TEXTURE_FILENAME = data/TEXTURE/2D/weapon_bowgun.png		// [26]武器UI：ボウガン
+TEXTURE_FILENAME = data/TEXTURE/2D/time.png					// [27]タイム：文字
+TEXTURE_FILENAME = data/TEXTURE/2D/ranking.jpg				// [28]ランキング
+TEXTURE_FILENAME = data/TEXTURE/2D/back.png					// [29]～～～で戻る
+TEXTURE_FILENAME = data/TEXTURE/2D/rank.png					// [30]ランク
+TEXTURE_FILENAME = data/TEXTURE/2D/clear_bg.png				// [31]クリア：背景
+TEXTURE_FILENAME = data/TEXTURE/2D/clear_top.png			// [32]クリア：トップ文字
+TEXTURE_FILENAME = data/TEXTURE/2D/clear_sentence.png		// [33]クリア：文字
+TEXTURE_FILENAME = data/TEXTURE/2D/level_up_top.png			// [34]レベルアップ：トップ文字
+TEXTURE_FILENAME = data/TEXTURE/2D/level_up_icon.png		// [35]レベルアップ：各項目のアイコン
+TEXTURE_FILENAME = data/TEXTURE/2D/level_up_sentence.png	// [36]レベルアップ：各項目の説明文
+TEXTURE_FILENAME = data/TEXTURE/2D/score.png				// [37]スコア
+TEXTURE_FILENAME = data/TEXTURE/2D/powerup_icon.png			// [38]能力強化アイコン
+TEXTURE_FILENAME = data/TEXTURE/2D/ready_go.png				// [39]ゲーム開始時のReadyGo
+TEXTURE_FILENAME = data/TEXTURE/2D/title_howto.png			// [40]タイトル：遊び方
+TEXTURE_FILENAME = data/TEXTURE/2D/howto_bg.jpg				// [41]遊び方：背景1
+TEXTURE_FILENAME = data/TEXTURE/2D/howto_bg_2.jpg			// [42]遊び方：背景2
+TEXTURE_FILENAME = data/TEXTURE/2D/howto_bg_3.jpg			// [43]遊び方：背景3
+TEXTURE_FILENAME = data/TEXTURE/2D/pagination.png			// [44]ページ送り
+
+END_SCRIPT		# この行は絶対消さないこと！
